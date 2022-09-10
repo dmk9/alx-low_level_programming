@@ -23,13 +23,19 @@ int main(void)
 		{																			putchar('\n');
 																					i++;
 			j++;
-																				}
-		else																		{
+		}
+		else
+		{
 			putchar(44);
-			putchar(32);																	if (j < 57)																	{
+			putchar(32);
+			if (j < 57)
+			{
 				j++;
-			}																		else																		{
-				i++;																		j = 1 + i;																}																	}
+			}
+			else
+			{
+				i++;
+				j = 1 + i;																}																	}
 																			}
 	return (0);
 }

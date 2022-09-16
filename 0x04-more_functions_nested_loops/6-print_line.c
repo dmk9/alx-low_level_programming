@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * print_line: a function that draws a straight line in the terminal.
+ * print_line - a function that draws a straight line in the terminal.
  * followed by a new line.
- * @n: An input integer
+ * @n: An input integer for nuumber of times line is printed
  * Return: Always 0.
  */
 

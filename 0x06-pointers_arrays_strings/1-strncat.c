@@ -2,12 +2,13 @@
 
 /**
  * _strncat - _strncat function is similar to the _strcat function
- * except that 
+ * except that
  * it will use at most n bytes from src; and
  * src does not need to be null-terminated if it contains n or more bytes.
  * Return a pointer to the resulting string dest
  * @dest: string to appended by src
  * @src: string to append to dest
+ * @n: largest number of bytes to append
  *
  * Return: address to dest (pointer)
  */

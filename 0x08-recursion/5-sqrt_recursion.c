@@ -1,5 +1,6 @@
 #include "main.h"
 
+int sqrt_checker(int j, int k);
 /**
  * _sqrt_recursion - returns the natural square root of a number
  * @n: number ot take a square root of

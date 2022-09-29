@@ -27,4 +27,5 @@ int sqrt_checker(int j, int k)
 		return (j);
 	if (j * j > k)
 		return (-1);
+	return (sqrt_checker(j + 1, k));
 }

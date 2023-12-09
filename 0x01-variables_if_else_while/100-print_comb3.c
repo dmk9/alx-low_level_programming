@@ -15,13 +15,14 @@ int main(void)
 
 	i = 48;
 	j = 49;
-	while  ((i < 57) && (j < 58))
+	while ((i < 57) && (j < 58))
 	{
 		putchar(i);
 		putchar(j);
 		if ((i == 56) && (j == 57))
-		{																			putchar('\n');
-																					i++;
+		{
+			putchar('\n');
+			i++;
 			j++;
 		}
 		else
@@ -35,7 +36,9 @@ int main(void)
 			else
 			{
 				i++;
-				j = 1 + i;																}																	}
-																			}
+				j = 1 + i;
+			}
+		}
+	}
 	return (0);
 }
